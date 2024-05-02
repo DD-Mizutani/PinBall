@@ -60,10 +60,13 @@ public class BrightnessRegulator : MonoBehaviour
         }
     }
 
+
     //衝突時に呼ばれる関数
     void OnCollisionEnter(Collision other)
     {
         //角度を180に設定
         this.degree = 180;
     }
+
+
 }
